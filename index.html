@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Forms installation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <link rel="icon" href="image/logo-gsb.png">
+
+</head>
+
+<body>
+    <h1> Formulaire de demande d'installation d'un poste informatique.</h1>
+
+    <form action="/action_page.php" method="post">
+        <label for="fname">Prénom du personnel éffectuant la demande.</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Nom de celui-ci</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+        <h3>À qui s'adresse le poste ?</h3>
+        <label for="fname">Prénom du personnel à qui s'addresse le poste</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Nom de celui-ci</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+
+        <input type="radio" id="1fn" name="Fonction" value="stagiaire">
+        <label for="1fn">stagiaire</label><br>
+        <input type="radio" id="2fn" name="Fonction" value="Comptable">
+        <label for="2fn">comptable</label><br>
+        <input type="radio" id="3fn" name="Fonction" value="Service RH">
+        <label for="3fn">Service RH</label><br>
+
+        <h3>Date à laquelle le poste doit être operationnel:</h3>
+        <input type="date" name="datefn" id="date">
+        <label for="date"></label> <br>
+
+        <br>
+        <input type="submit" value="envoyer"> <br>
+        <input type="reset" value="Reset">
+
+    </form>
+
+    <script src="" async defer></script>
+</body>
+
+</html>
